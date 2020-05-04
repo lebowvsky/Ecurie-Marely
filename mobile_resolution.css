@@ -1,0 +1,303 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*	******** POLICE *********	*/
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url('fonts/caviardreams.ttf');
+}
+
+@font-face {
+	font-family: "Scriptina pro";
+	src: url('fonts/scriptina_pro.otf');
+}
+
+/*	************** ELEMENTS PRINCIPAUX DE LA PAGE **************** 	*/
+
+html, body {
+	width: auto;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Caviar Dreams",'Trebuchet MS', Arial, sans-serif;
+}
+
+header,
+#banniere,
+section,
+footer {
+	max-width: 100%;
+}
+
+.rose {
+	color: #dd1f83;
+}
+
+.gras {
+	font-weight: bold;
+}
+
+.souligne {
+	text-decoration: underline;
+}
+
+
+
+img {
+	height: auto;
+}
+
+section {
+	-webkit-hyphens: auto; /* césure propre */
+    -moz-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word; /* passage à la ligne forcé */
+}
+
+/*	************************ HEADER **************************** 	*/
+
+
+
+header {
+
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+	border-bottom: 3px solid #dd1f83;
+}
+
+/* *** Titre et logo *** */
+#logo_grand {
+	display: none;
+}
+
+#titre_principal {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10%;
+	display: inline-block;
+	color: white;
+	text-align: center;
+}
+
+#titre_principal #logo {
+	display: block;
+	width: 120px;
+	height: 120px;
+}
+
+#titre_principal #titre {
+	display: block;
+	vertical-align: top;
+	font-size: 0.8em;
+}
+
+#burger {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+/* *** Menu *** */
+#menu_principal {
+	display: none;
+}
+
+#menu_responsive {
+	width: 100%;
+	margin-top: 0px;
+	text-align: center;
+	background-color: #dd1f83;
+	border: 1px solid #dd1f83;
+}
+
+#menu_responsive nav {
+	width: 100%;
+	margin: auto;
+
+}
+
+#menu_responsive ul {
+	height: auto;
+	padding: 0px;
+}
+
+#menu_responsive li {
+	width: 100%;
+	height: 30px;
+	list-style-type: none;
+}
+
+#menu_responsive a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+
+/*	********************** BANNIERE ****************************	*/
+
+#banniere {
+	display: none;
+
+}
+
+#photo_deco {
+	position: relative;
+	top: -3px;
+	width: 100%;
+	height: 500px;
+	background-image: url(photos/oeil_cheval_petite.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*	********************* SECTION *****************************		*/
+
+.haut {
+	display: none;
+}
+
+hr {
+	width: 30%;
+	margin-top: 100px;
+}
+
+.remonter {
+	width: 50px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+.remonter a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.remonter a:hover {
+	color: #07c73d;
+}
+
+
+article {
+	width: 100%;
+}
+
+section {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	margin-top: 20px;
+	color: black;
+	border: none;
+
+}
+
+section h2 {
+	text-align: center;
+	font-family: "Scriptina pro";
+	color: #dd1f83;
+	font-size: 2em;
+}
+
+section p {
+	text-align: justify;
+}
+
+section ul {
+	margin-left: 15%;
+}
+
+section h3 {
+	text-decoration: underline;
+}
+
+/* ***	Tableau  *** */
+section table {
+	width: 70%;
+	height: 120px;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+section td {
+	border: 1px solid black;
+	padding-left: 5%;
+}
+/*	***************	*/
+
+/*	***** Accueil ***** */
+#carrousel {
+	display: none;
+}
+
+/*	* Qui sommes nous * */
+#cv {
+	width: 70%;
+	margin: auto;
+	padding: 30px;
+}
+
+
+#photo_charlotte {
+	width: 150px;
+	height: 200px;
+	overflow: hidden;
+	margin: auto;
+	border: 1px solid black;
+}
+
+#photo_aurelie {
+	width: 150px;
+	height: 200px;
+	overflow: hidden;
+	margin: auto;
+	border: 1px solid black;
+}
+
+
+
+/*	***** Contact ***** */
+#contact p {
+	text-align: center;
+}
+
+#plan_google {
+	display: none;
+}
+
+
+/*	*********************** Footer ************************	*/
+footer {
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	margin-top: 50px;
+
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#mentions_legales {
+	display: inline-block;
+}
+
+#facebook_footer {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+
+
+
+}

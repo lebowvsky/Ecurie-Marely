@@ -1,0 +1,335 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*	******** POLICE *********	*/
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url('fonts/caviardreams.ttf');
+}
+
+@font-face {
+	font-family: "Scriptina pro";
+	src: url('fonts/scriptina_pro.otf');
+}
+
+/*	************** ELEMENTS PRINCIPAUX DE LA PAGE **************** 	*/
+
+html body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Caviar Dreams",'Trebuchet MS', Arial, sans-serif; 
+}
+
+.rose {
+	color: #dd1f83;
+}
+
+.gras {
+	font-weight: bold;
+}
+
+.souligne {
+	text-decoration: underline;
+}
+
+
+/*	************************ HEADER **************************** 	*/
+
+
+
+header {
+	top: 0px;
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+
+/* *** Titre et logo *** */
+#titre_principal {
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	text-align: center;
+}
+
+#logo_petit {
+	display: none;
+}
+
+/* *** Menu *** */
+#menu_principal {
+	width: 80%;
+	height: 50px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	font-size: 1.4em;
+	font-weight: bold;
+	
+}
+
+#menu_principal ul {
+	display: block;
+	list-style-type: none;
+	height: 50px;
+	width: 900px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	overflow: hidden;
+}
+
+
+#menu_principal li {
+	float: left;
+	height: 40px;
+	margin-top: 5px;
+	border-right: 3px solid #dd1f83;
+}
+
+#menu_principal li:last-child {
+	border-right: none;
+}
+
+#menu_principal a {
+	display: inline-block;
+	color: #57585a;
+	text-align: center;
+	padding: 5px 17px;
+	text-decoration: none;
+}
+
+#menu_principal a:hover {
+	color: #dd1f83;
+	font-style: italic;
+}
+
+#burger {
+	display: none;
+}
+
+#menu_responsive {
+	display: none;
+}
+
+/*	********************** BANNIERE ****************************	*/
+
+#banniere {
+	width: 900px;
+	height: 199px;
+	margin: auto;
+	background-image: url(photos/pattes_nb.png);
+
+}
+
+#photo_deco {
+	display: none;
+}
+
+/*	********************* CORPS SECTIONS **********************		*/
+#corps_sections {
+	background-image: url(photos/oeil_cheval.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-attachment: fixed;
+	padding-bottom: 50px;
+}
+/*	********************* SECTION *****************************		*/
+
+
+hr {
+	width: 30%;
+	margin-top: 150px;
+}
+
+.remonter {
+	width: 50px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section {
+	width: 840px;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.haut {
+	display: block;
+	width: 200px;
+	height: 66px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article {
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-color: white;
+	box-shadow: 2px 3px 10px;
+	color: black;
+
+}
+
+section h2 {
+	text-align: center;
+	font-family: "Scriptina pro";
+	font-size: 3em;
+	color: #dd1f83;
+}
+
+section p {
+	text-align: justify;
+}
+
+section ul {
+	margin-left: 15%;
+}
+
+section h3 {
+	text-decoration: underline;
+}
+
+/* ***	Tableau  *** */
+section table {
+	width: 400px;
+	height: 120px;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+section td {
+	border: 1px solid black;
+	padding-left: 10px;
+}
+/*	***************	*/
+
+/*	***** Accueil ***** */
+
+#carrousel {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	background-color: #57585a;
+}
+
+#carrousel ul li {
+	position: absolute;
+	z-index: 10;
+	top: 0px;
+	left: 0px;
+}
+
+.fleches_carrousel {
+	display: inline-block;
+	position: relative;
+	z-index: 15;
+	width: 50px;
+	height: 50px;
+}
+
+#fleche_gauche {
+	background-image: url(design/fleche_gauche.png);
+	float: left;
+	top: 225px;
+	left: 25px;
+	cursor: pointer;
+}
+
+#fleche_droite {
+	background-image: url(design/fleche_droite.png);
+	float: right;
+	top: 225px;
+	right: 25px;
+	cursor: pointer;
+}
+
+/*	* Qui sommes nous * */
+#cv {
+	width: 70%;
+	height: 200px;
+	margin: auto;
+	padding: 30px;
+}
+
+
+#photo_charlotte {
+	width: 150px;
+	height: 200px;
+	overflow: hidden;
+	float: left;
+	margin-right: 30px;
+	border-left: 5px solid #dd1f83;
+	border-top: 5px solid #dd1f83;
+}
+
+#photo_aurelie {
+	width: 150px;
+	height: 200px;
+	overflow: hidden;
+	float: right;
+	margin-left: 30px;
+	border-right: 5px solid #dd1f83;
+	border-bottom: 5px solid #dd1f83;
+}
+
+/*	***** Contact ***** */
+#contact p {
+	text-align: center;
+}
+
+
+#plan_google {
+	width: 600px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	box-shadow: 0px 3px 10px;
+	border: 1px solid black;
+}
+
+
+/*	*********************** Footer ************************	*/
+footer {
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	margin-top: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#mentions_legales {
+	display: inline-block;
+}
+
+#facebook_footer {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	left: 20%;
+
+
+}
+
+
+

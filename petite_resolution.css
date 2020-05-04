@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*	******** POLICE *********	*/
+@font-face {
+	font-family: "Caviar Dreams";
+	src: url('fonts/caviardreams.ttf');
+}
+
+@font-face {
+	font-family: "Scriptina pro";
+	src: url('fonts/scriptina_pro.otf');
+}
+
+/*	************** ELEMENTS PRINCIPAUX DE LA PAGE **************** 	*/
+
+body {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-family: "Caviar Dreams",'Trebuchet MS', Arial, sans-serif;
+}
+
+.rose {
+	color: #dd1f83;
+}
+
+.gras {
+	font-weight: bold;
+}
+
+.souligne {
+	text-decoration: underline;
+}
+
+
+
+/*	************************ HEADER **************************** 	*/
+
+
+
+header {
+	top: 0px;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-color: white;
+	border-bottom: 3px solid #dd1f83;
+}
+
+/* *** Titre et logo *** */
+#logo_petit {
+	display: none;
+}
+
+#logo_grand {
+	
+}
+
+#titre_principal {
+	width: 400px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#burger {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	float: right;
+	right: 50px;
+	bottom: 100px;
+	cursor: pointer;
+}
+
+
+/* *** Menu *** */
+#menu_principal {
+	display: none;
+}
+
+#menu_responsive {
+	width: 100%;
+	margin-top: 0px;
+	text-align: center;
+	background-color: #dd1f83;
+	border: 1px solid #dd1f83;
+}
+
+#menu_responsive nav {
+	width: 100%;
+	margin: auto;
+
+}
+
+#menu_responsive ul {
+	height: auto;
+	padding: 0px;
+}
+
+#menu_responsive li {
+	width: 100%;
+	height: 30px;
+	list-style-type: none;
+}
+
+#menu_responsive a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+}
+
+#menu_responsive a:hover {
+	color: white;
+	font-style: italic;
+}
+
+/*	********************** BANNIERE ****************************	*/
+
+#banniere {
+	display: none;
+
+}
+
+#photo_deco {
+	display: none;
+}
+
+/*	********************* SECTION *****************************		*/
+
+.haut {
+	display: none;
+}
+
+hr {
+	display: none;
+}
+
+.remonter {
+	width: 50px;
+	height: 50px;
+	margin-top: 50px;
+	position: relative;
+	left: 80%;
+}
+
+section {
+	width: 80%;
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	color: black;
+	padding: 30px;
+	border: 1px solid #dd1f83;
+}
+
+section h2 {
+	display: block;
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: "Scriptina pro";
+	color: #dd1f83;
+	font-size: 2em;
+}
+
+section p {
+	text-align: justify;
+}
+
+section ul {
+	margin-left: 15%;
+}
+
+section h3 {
+	text-decoration: underline;
+}
+
+/*	***** Accueil ***** */
+#carrousel {
+	display: none;
+}
+
+
+/* ***	Tableau  *** */
+section table {
+	width: 70%;
+	height: 120px;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+section td {
+	border: 1px solid black;
+	padding-left: 10px;
+}
+/*	***************	*/
+
+/*	* Qui sommes nous * */
+#cv {
+	width: 70%;
+	height: 200px;
+	margin: auto;
+	padding: 30px;
+}
+
+
+#photo_charlotte {
+	width: 150px;
+	height: 200px;
+	overflow: hidden;
+	float: left;
+	margin-right: 30px;
+	border: 1px solid black;
+}
+
+#photo_aurelie {
+	width: 150px;
+	height: 200px;
+	overflow: hidden;
+	float: right;
+	margin-left: 30px;
+	border: 1px solid black;
+}
+
+/*	***** Contact ***** */
+#contact p {
+	text-align: center;
+}
+
+#plan_google {
+	overflow: hidden;
+	width: 600px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border: 5px solid #dd1f83;
+	border-radius: 5px;
+}
+
+
+/*	*********************** Footer ************************	*/
+footer {
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	margin-top: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#mentions_legales {
+	display: inline-block;
+}
+
+#facebook_footer {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	left: 20%;
+
+
+}
+
